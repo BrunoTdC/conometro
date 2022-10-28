@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="botao">
+        <button onclick="iniciar()" class="btn btn1">Começar</button>  <button onclick="pausar()" class="btn btn2">Pausar</button>  <button onclick="zerar()" class=" btn btn2">Zerar</button>
+        <div class="tempo" id="res">
+            <h1 id="tela">00:00:00</h1>
+        </div>
+       <div class="pos"><button onclick="marcar()" class="btnM">Marcar</button> <button onclick="limpar()" class="btnM btnE">Limpar</button></div>  
+    </div>
+    <div class="tabela">
+        <table id="table" border="1">
+            <thead>
+                <tr>
+                    <th>Nº</th>
+                    <th>TEMPO</th>
+                    <th>INTERVALO</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+<script src="conometro.js"></script>
+    
+</body>
+</html>
